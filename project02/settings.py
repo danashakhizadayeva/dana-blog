@@ -47,7 +47,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'project02.urls'
@@ -131,4 +130,3 @@ STATIC_ROOT= '/home/danastyles/django02/project02/static/'
 
 # Redirect to home URL after login (Default redirects to /accounts/profile/)
 LOGIN_REDIRECT_URL = '/'
-STATICSTORAGE = "Whitenoise.storage.CompressedManifestStaticFilesStorage"
